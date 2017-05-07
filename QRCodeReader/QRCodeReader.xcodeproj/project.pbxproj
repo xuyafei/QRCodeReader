@@ -15,6 +15,7 @@
 		D19A7E201EBEB677000C3DA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D19A7E1E1EBEB677000C3DA6 /* LaunchScreen.storyboard */; };
 		D19A7E2B1EBEB677000C3DA6 /* QRCodeReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D19A7E2A1EBEB677000C3DA6 /* QRCodeReaderTests.m */; };
 		D19A7E361EBEB677000C3DA6 /* QRCodeReaderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D19A7E351EBEB677000C3DA6 /* QRCodeReaderUITests.m */; };
+		D19A7E451EBF74FA000C3DA6 /* ScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D19A7E441EBF74FA000C3DA6 /* ScanViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		D19A7E311EBEB677000C3DA6 /* QRCodeReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QRCodeReaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D19A7E351EBEB677000C3DA6 /* QRCodeReaderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QRCodeReaderUITests.m; sourceTree = "<group>"; };
 		D19A7E371EBEB677000C3DA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D19A7E431EBF74FA000C3DA6 /* ScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanViewController.h; sourceTree = "<group>"; };
+		D19A7E441EBF74FA000C3DA6 /* ScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				D19A7E1E1EBEB677000C3DA6 /* LaunchScreen.storyboard */,
 				D19A7E211EBEB677000C3DA6 /* Info.plist */,
 				D19A7E101EBEB677000C3DA6 /* Supporting Files */,
+				D19A7E431EBF74FA000C3DA6 /* ScanViewController.h */,
+				D19A7E441EBF74FA000C3DA6 /* ScanViewController.m */,
 			);
 			path = QRCodeReader;
 			sourceTree = "<group>";
@@ -279,6 +284,7 @@
 				D19A7E181EBEB677000C3DA6 /* ViewController.m in Sources */,
 				D19A7E151EBEB677000C3DA6 /* AppDelegate.m in Sources */,
 				D19A7E121EBEB677000C3DA6 /* main.m in Sources */,
+				D19A7E451EBF74FA000C3DA6 /* ScanViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
