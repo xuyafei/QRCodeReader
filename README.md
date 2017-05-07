@@ -1,2 +1,2 @@
 # QRCodeReader
-a project that reade QR demo
+a project that read QR demo
